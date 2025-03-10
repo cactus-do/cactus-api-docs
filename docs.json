@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Sobre la API",
         "groups": [
           {
             "group": "Inicio rápido",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Referencia API",
+            "group": "Referencia de API",
             "openapi": "openapi.json"
           }
         ]
@@ -56,7 +56,7 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Soporte",
         "href": "mailto:support@cactus.do"
       }
     ],

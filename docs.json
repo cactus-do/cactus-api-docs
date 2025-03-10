@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Sobre la API",
+        "tab": "Cactus API",
         "groups": [
           {
-            "group": "Inicio rápido",
+            "group": "Sobre la API",
             "pages": [
               "introduction",
               "quickstart",
@@ -23,7 +23,8 @@
           },
           {
             "group": "Referencia de API",
-            "openapi": "openapi.json"
+            "openapi": "openapi.json",
+            "hidden": false
           }
         ]
       }
@@ -79,7 +80,8 @@
       "auth": {
         "method": "key",
         "name": "x-api-key"
-      }
+      },
+      "server": "https://api.cactus.do"
     }
   }
 }
